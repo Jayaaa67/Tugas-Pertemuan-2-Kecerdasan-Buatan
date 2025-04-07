@@ -219,7 +219,7 @@ def main():
     print("\n===== Pohon Pencarian DFS dengan Kedalaman Iteratif =====")
     visualize_id_dfs_tree(g, 'S', 'G')
     
-    # Mencari jalur terbaik (minimum cost)
+    # Mencari jalur Tercepat (minimum cost)
     paths = []
     costs = []
     
@@ -242,7 +242,7 @@ def main():
         min_cost = min(costs)
         min_index = costs.index(min_cost)
         
-        print("\n===== Jalur Terbaik =====")
+        print("\n===== Jalur Tercepat =====")
         print(f"Algoritma: {['BFS', 'DFS', 'DFS dengan Kedalaman Iteratif', 'Pencarian Dua Arah'][min_index % 4]}")
         print(f"Jalur: {' → '.join(paths[min_index])}")
         print(f"Total bobot: {min_cost}")
