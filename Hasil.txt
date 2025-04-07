@@ -1,0 +1,89 @@
+PS C:\Users\tsanj\OneDrive\Documents\GitHub\tugas2-ai> python '.\Tugas2-Kecerdasan Buatan.py'
+===== Hasil Pencarian Jalur =====
+
+1. BFS (Breadth-First Search):
+   Jalur: S → A → B → G
+   Total bobot: 11
+
+2. DFS (Depth-First Search):
+   Jalur: S → C → B → G
+   Total bobot: 12
+
+3. DFS dengan Kedalaman Iteratif:
+   Jalur: S → A → B → G
+   Total bobot: 11
+
+4. Pencarian Dua Arah:
+   Tidak menemukan jalur
+
+===== Pohon Pencarian BFS =====
+└── S
+    ├── A
+    │   ├── B
+    │   │   └── G
+    │   └── D
+    └── C
+
+===== Pohon Pencarian DFS =====
+└── S
+    ├── A
+    │   ├── B
+    │   │   └── G
+    │   └── D
+    └── C
+
+===== Pohon Pencarian DFS dengan Kedalaman Iteratif =====
+Tree untuk kedalaman maksimum 4:
+
+Kedalaman 1:
+└── S
+    ├── A
+    └── C
+
+Kedalaman 2:
+└── S
+    ├── A
+    │   ├── B
+    │   └── D
+    └── C
+        ├── D
+        └── B
+
+Kedalaman 3:
+└── S
+    ├── A
+    │   ├── B
+    │   │   ├── G
+    │   │   └── G
+    │   └── D
+    │       ├── G
+    │       └── G
+    └── C
+        ├── D
+        │   ├── G
+        │   └── G
+        └── B
+            ├── G
+            └── G
+
+Kedalaman 4:
+└── S
+    ├── A
+    │   ├── B
+    │   │   ├── G
+    │   │   └── G
+    │   └── D
+    │       ├── G
+    │       └── G
+    └── C
+        ├── D
+        │   ├── G
+        │   └── G
+        └── B
+            ├── G
+            └── G
+
+===== Jalur Tercepat =====
+Algoritma: BFS
+Jalur: S → A → B → G
+Total bobot: 11
