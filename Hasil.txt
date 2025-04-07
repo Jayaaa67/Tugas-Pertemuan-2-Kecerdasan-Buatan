@@ -1,4 +1,4 @@
-PS C:\Users\tsanj\OneDrive\Documents\GitHub\tugas2-ai> python '.\Tugas2-Kecerdasan Buatan.py'
+PS C:\Users\tsanj\OneDrive\Documents\GitHub\tugas2-ai> python .\tugas2-ai.py
 ===== Hasil Pencarian Jalur =====
 
 1. BFS (Breadth-First Search):
