@@ -1,3 +1,4 @@
+PS C:\Users\tsanj\OneDrive\Documents\GitHub\tugas2-ai> python .\main.py
 ===== Hasil Pencarian Jalur =====
 
 1. BFS (Breadth-First Search):
