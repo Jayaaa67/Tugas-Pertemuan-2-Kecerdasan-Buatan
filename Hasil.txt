@@ -1,4 +1,3 @@
-PS C:\Users\tsanj\OneDrive\Documents\GitHub\tugas2-ai> python .\tugas2-ai.py
 ===== Hasil Pencarian Jalur =====
 
 1. BFS (Breadth-First Search):
@@ -12,9 +11,6 @@ PS C:\Users\tsanj\OneDrive\Documents\GitHub\tugas2-ai> python .\tugas2-ai.py
 3. DFS dengan Kedalaman Iteratif:
    Jalur: S → A → B → G
    Total bobot: 11
-
-4. Pencarian Dua Arah:
-   Tidak menemukan jalur
 
 ===== Pohon Pencarian BFS =====
 └── S
